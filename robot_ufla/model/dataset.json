@@ -19,6 +19,7 @@
   ],
 
   "puxadas": [
+    "puxada",
     "puxada no pulley",
     "puxada de frente",
     "puxada pegada supinada",
@@ -53,6 +54,7 @@
   ],
 
   "roscas": [
+    "rosca",
     "rosca direta",
     "rosca com barra",
     "rosca com barra w",
@@ -63,14 +65,14 @@
     "Para realizar o exercício de rosca as recomendações são as seguintes: Sempre mantenha os ombros para trás e os cotovelos para frente. É importante não balançar o corpo, dessa forma, sempre mantenha uma boa base com as pernas abertas na largura dos ombros. AGORA FAZ FORÇA AÍ!!"
   ],
 
-  "triceps": ["tríceps pulley", "tríceps corda", "tríceps com barra"],
+  "triceps": [
+    "tríceps",
+    "tríceps pulley",
+    "tríceps corda",
+    "tríceps com barra"
+  ],
   "resTriceps": [
     "Para realizar o exercício de tríceps as recomendações são as seguintes: Sempre mantenha os ombros para trás e os cotovelos rente ao corpo, faça força em direção ao chão e não em direção ao seu corpo. AGORA FAZ FORÇA AÍ!!"
-  ],
-
-  "tricepsTesta": ["tríceps testa"],
-  "resTricepsTesta": [
-    "tríceps testa: Para realizar o exercício de tríceps testa as recomendações são as seguintes: Mantenha sempre os ombros para trás e deixe o peso cair um pouco acima da sua cabeça. AGORA FAZ FORÇA AÍ!"
   ],
 
   "despedidas": ["tchau", "até"],

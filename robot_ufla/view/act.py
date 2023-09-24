@@ -1,8 +1,9 @@
 # import pyttsx3
 import time
 
-from elevenlabs import generate, play
+from elevenlabs import generate, play, set_api_key
 
+# set_api_key("")
 
 
 def act(str):
@@ -11,6 +12,7 @@ def act(str):
     # time.sleep(3)
     # engine.runAndWait()
     # time.sleep(3)
-    audio = generate(text=str, voice="Daniel", model="eleven_multilingual_v2")
+    audio = generate(text=str, api_key="",
+                     voice="Daniel", model="eleven_multilingual_v2")
     play(audio)
     time.sleep(3)
