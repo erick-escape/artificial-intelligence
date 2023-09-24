@@ -1,6 +1,78 @@
 {
-    "cumprimentos":["oi", "olá", "ei", "e aí"],
-    "resCumprimentos":["E a i, tudo certo?", "Opa, bao?"],
-    "despedidas":["tchau", "até"],
-    "resDespedidas":["Falou!", "Até mais"]
+  "cumprimentos": ["oi", "olá", "ei", "e aí"],
+  "resCumprimentos": ["E a i, tudo certo?", "Opa, bao?"],
+
+  "supinos": [
+    "supino",
+    "supino reto",
+    "supino inclinado",
+    "supino com halteres",
+    "supino declinado",
+    "supino inclinado com halteres",
+    "supino declinado com halteres",
+    "supino reto com barra",
+    "supino reto com halteres",
+    "supino inclinado com barra"
+  ],
+  "resSupinos": [
+    "Para realizar o exercício de supino as recomendações são as seguintes: Sempre mantenha as costas contraída, ombros para trás, como se estivesse empurrando o banco com as costas, peito sempre projetado para cima de forma que fique um vão entre o meio das suas costas e o banco. AGORA FAZ FORÇA AÍ!!"
+  ],
+
+  "puxadas": [
+    "puxada no pulley",
+    "puxada de frente",
+    "puxada pegada supinada",
+    "puxada frontal"
+  ],
+  "resPuxadas": [
+    "Para realizar o exercício de puxada as recomendações são as seguintes: Sempre realize o movimento com as costas, isso parece óbvio, mas não é. Para fazer uma puxada você solicita muito o bíceps e anterior de ombro. Nesse sentido, é necessário que você mantenha a consciência de realizar o movimento usando a movimentação das costas e não fazendo força com o bíceps, treine com um peso leve para entender o movimento das costas. AGORA FAZ FORÇA AÍ!!"
+  ],
+
+  "remadas": [
+    "remada baixa",
+    "remada curvada",
+    "remada curvada pegada pronada",
+    "remada curvada pegada supinada",
+    "remada cavalinho",
+    "remada serrote"
+  ],
+  "resRemadas": [
+    "Para realizar o exercício de remada as recomendações são as seguintes: Assim como nas puxadas, aqui você também precisa prestar atenção no movimento das costas. A dica de ouro é deixar as costas alongar ao máximo e realizar a remada usando primeiro as costas e depois os bíceps. AGORA FAZ FORÇA AÍ!!"
+  ],
+
+  "agachamentos": [
+    "agachamento",
+    "agachamento com barra",
+    "agachamento com halteres",
+    "agachamento livre",
+    "agachamento no smith",
+    "agachamento sumo"
+  ],
+  "resAgachamentos": [
+    "Para realizar o exercício de agachamento as recomendações são as seguintes: Caso esteja utilizando uma barra, posicione-a corretamente abaixo da linha cervical, na altura dos ombros. Nunca coloque a barra no pescoço. Além disso, agache sempre o máximo que conseguir prestando atenção na linha da coluna, você precisa manter a curvatura natural da coluna intacta. AGORA FAZ FORÇA AÍ!!"
+  ],
+
+  "roscas": [
+    "rosca direta",
+    "rosca com barra",
+    "rosca com barra w",
+    "rosca direta com halteres",
+    "rosca scotch"
+  ],
+  "resRoscas": [
+    "Para realizar o exercício de rosca as recomendações são as seguintes: Sempre mantenha os ombros para trás e os cotovelos para frente. É importante não balançar o corpo, dessa forma, sempre mantenha uma boa base com as pernas abertas na largura dos ombros. AGORA FAZ FORÇA AÍ!!"
+  ],
+
+  "triceps": ["tríceps pulley", "tríceps corda", "tríceps com barra"],
+  "resTriceps": [
+    "Para realizar o exercício de tríceps as recomendações são as seguintes: Sempre mantenha os ombros para trás e os cotovelos rente ao corpo, faça força em direção ao chão e não em direção ao seu corpo. AGORA FAZ FORÇA AÍ!!"
+  ],
+
+  "tricepsTesta": ["tríceps testa"],
+  "resTricepsTesta": [
+    "tríceps testa: Para realizar o exercício de tríceps testa as recomendações são as seguintes: Mantenha sempre os ombros para trás e deixe o peso cair um pouco acima da sua cabeça. AGORA FAZ FORÇA AÍ!"
+  ],
+
+  "despedidas": ["tchau", "até"],
+  "resDespedidas": ["Falou!", "Até mais"]
 }
