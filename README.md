@@ -26,7 +26,7 @@ A pasta "view" contém os seguintes arquivos:
 
 - `sense.py`: Este arquivo utiliza a biblioteca `speech_recognition` para capturar áudio do microfone e convertê-lo em texto. Ele fornece a entrada de fala para o controlador.
 
-- `act.py`: Este arquivo, atualmente comentado, originalmente utilizava a biblioteca `pyttsx3` para sintetizar fala a partir do texto e reproduzi-la. No entanto, a funcionalidade foi substituída por uma API externa (provavelmente da ElevenLabs) para gerar e reproduzir áudio. Certifique-se de definir a chave de API apropriada na função `set_api_key`.
+- `act.py`: Este arquivo, sintetiza a fala a partir do texto e a reproduz.
 
 ## Execução do Robô
 
