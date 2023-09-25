@@ -1,4 +1,4 @@
-# README - Trabalho de IA - Marombot
+# Trabalho de IA - Marombot
 
 Este repositório contém o código-fonte do Marombot, bot que tem como objetivo aconselhar praticamentes de musculação sobre medidas de segurança dentro da academia, para isso, você informa qual exercício está prestes a fazer e ele te fornece dicas de segurança, para evitar acidentes.
 
@@ -32,9 +32,9 @@ A pasta "view" contém os seguintes arquivos:
 
 Para executar o robô, siga estas etapas:
 
-1. Certifique-se de que todas as dependências, como `speech_recognition`, estão instaladas.
-
-2. Defina a chave de API apropriada no arquivo `act.py` para a função `set_api_key`.
+1. Certifique-se de ter o Python instalado.
+   
+2. Certifique-se de que todas as dependências, como `speech_recognition`, estão instaladas.
 
 3. Execute o arquivo `Control.py`.
 
