@@ -36,7 +36,7 @@ Para executar o robô, siga estas etapas:
    
 2. Certifique-se de que todas as dependências, como `speech_recognition`, estão instaladas.
 
-3. Execute o arquivo `Control.py`.
+3. Execute o arquivo `main.py`.
 
 4. Fale comandos de voz reconhecíveis pelo robô e observe suas respostas.
 
