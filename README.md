@@ -4,19 +4,24 @@ Este repositório contém o código-fonte do Marombot, bot que tem como objetivo
 
 ## Arquitetura do Robô
 
+### Pasta Raiz
+
+A pasta raiz armazena as informações dos exercícios e suas respectivas medidas de segurança, além disso,
+armazena também o arquivo `main.py`, onde começa a execução, e as pastas model, view e controller especificadas abaixo.
+
 ### Model
 
-A pasta "Model" armazena as informações dos exercícios e suas respectivas medidas de segurança.
+A pasta "Model" contém o arquivo `dataProcess.py`, que é responsável por realizar o processamento de dados do robo.
 
 ### Controller
 
-A pasta "controller" contém o arquivo `Control.py`, que é responsável pelo controle do robô. Ele utiliza o reconhecimento de fala para entender comandos de voz e atuar em conformidade. Aqui está uma visão geral do funcionamento:
+A pasta "controller" contém o arquivo `control.py`, que é responsável pelo controle do robô. Ele utiliza o reconhecimento de fala para entender comandos de voz e atuar em conformidade. Aqui está uma visão geral do funcionamento:
 
-1. O arquivo `Control.py` importa as funções de reconhecimento de fala da pasta "view" e as respostas pré-definidas do arquivo `dataset.json` na pasta "model".
+1. O arquivo `control.py` importa as funções de reconhecimento de fala da pasta "view" e as respostas pré-definidas do arquivo `dataset.json`.
 
 2. Captura a entrada de fala do usuário e a converte em texto usando a biblioteca `speech_recognition`.
 
-3. Compara as palavras reconhecidas com as categorias definidas no arquivo `dataset.json` (por exemplo, 'cumprimentos', 'supinos', 'puxadas', etc.).
+3. Compara as palavras reconhecidas com as categorias definidas no arquivo `dataset.json` (por exemplo, 'cumprimentos', 'supino', 'puxada', etc.).
 
 4. Com base na correspondência com uma categoria, o robô seleciona uma resposta adequada a partir do `dataset.json` e a executa usando as funções da pasta "view".
 
@@ -33,7 +38,7 @@ A pasta "view" contém os seguintes arquivos:
 Para executar o robô, siga estas etapas:
 
 1. Certifique-se de ter o Python instalado.
-   
+
 2. Certifique-se de que todas as dependências, como `speech_recognition`, estão instaladas.
 
 3. Execute o arquivo `main.py`.
