@@ -6,7 +6,7 @@ Este repositório contém o código-fonte do Marombot, bot que tem como objetivo
 
 ### Model
 
-A pasta "Model" deve ser expandida para conter toda a lógica do robô.
+A pasta "Model" armazena as informações dos exercícios e suas respectivas medidas de segurança.
 
 ### Controller
 
