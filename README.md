@@ -46,3 +46,8 @@ Para executar o robô, siga estas etapas:
 4. Fale comandos de voz reconhecíveis pelo robô e observe suas respostas.
 
 Este README fornece uma visão geral do projeto atual. Sinta-se à vontade para contribuir e expandir este projeto de IA robótica controlada por voz.
+
+## Grupo
+- [Erick de Castro Silva](https://github.com/erick-escape)
+- [Luis Fernando Santos Ferreira](https://github.com/luis131313)
+- [Layra Vilas Boas Ferreira](https://github.com/Layravbf)
