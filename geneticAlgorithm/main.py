@@ -19,7 +19,6 @@ generations = 5
 # calculate the fitness of the first generation
 chromosomes = GA.calculateFitnessOfAllChromosomes(
     GA.getFirstGeneration())
-print(chromosomes)
 
 generationNumber = 1
 while (generationNumber <= generations):
@@ -31,8 +30,6 @@ while (generationNumber <= generations):
     
     # crossing them over and calculating their fitness
     crossoveredChromosomes = GA.crossover(firstSelected, secondSelected)
-    crossoveredChromosomes = GA.calculateFitnessOfAllChromosomes(
-        crossoveredChromosomes)
 
     # appling mutation to the chromosomes
     for chromosome in crossoveredChromosomes:

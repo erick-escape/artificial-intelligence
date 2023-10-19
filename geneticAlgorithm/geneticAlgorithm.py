@@ -29,7 +29,7 @@ def twosComplementToDecimal(binary):
 
 def getFirstGeneration():
     generation = []
-    for i in range(0, genes, 1):
+    for i in range(0, chromosomes, 1):
         generation.append([decimalToTwosComplement(random.randint(-10, 10)), 0])
     return generation
 
